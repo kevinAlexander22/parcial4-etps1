@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+        android:background="#A62626"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:layout_height="175dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/parcial_icon"
+        android:layout_height="100dp">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="PARCIAL-04"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="UTEC-2023"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        android:textStyle="normal"
+        android:paddingLeft="30dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
